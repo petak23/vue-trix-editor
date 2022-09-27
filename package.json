@@ -1,6 +1,6 @@
 {
   "name": "@dymantic/vue-trix-editor",
-  "version": "0.4.0",
+  "version": "0.4.1",
   "main": "dist/TrixVue.umd.js",
   "module": "dist/TrixVue.common.js",
   "repository": {
@@ -15,9 +15,9 @@
     "wtest": "vue-cli-service test:unit --watch"
   },
   "dependencies": {
-    "axios": "^0.18.1",
-    "trix": "^0.12.1",
-    "vue": "^2.6.12"
+    "axios": "^0.21.4",
+    "trix": "^1.3.1",
+    "vue": "^2.6.14"
   },
   "devDependencies": {
     "@vue/cli-plugin-babel": "^3.12.1",
@@ -29,6 +29,6 @@
     "babel-jest": "^23.6.0",
     "moxios": "^0.4.0",
     "sinon": "^6.3.5",
-    "vue-template-compiler": "^2.6.12"
+    "vue-template-compiler": "^2.6.14"
   }
 }
